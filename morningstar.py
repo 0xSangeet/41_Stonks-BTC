@@ -24,5 +24,5 @@ def scrape_morningstar_titles():
         for prompt in prompts:
             f.write(prompt + '\n')
 
-if __name__ == 'main':
+if __name__ == '__main__':
     scrape_morningstar_titles()
