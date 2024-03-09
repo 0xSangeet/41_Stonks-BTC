@@ -15,5 +15,5 @@ def scrape_investopedia_titles():
         for req_title in print_titles:
             f.write(req_title.span.text.strip()+'\n')
 
-if __name__ == 'main':
+if __name__ == '__main__':
     scrape_investopedia_titles()
