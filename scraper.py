@@ -5,5 +5,5 @@ def scrape():
     scrape_investopedia_titles()
     scrape_morningstar_titles()
 
-if __name__ == 'main':
+if __name__ == '__main__':
     scrape()
